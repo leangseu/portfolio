@@ -1,0 +1,44 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about > * {
+    flex: 0 0 auto;
+    margin: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    line-height: 180%;
+    font-size: 1.1em;
+}
+
+.contact a {
+    padding: 10px 0;
+}
+
+.image > img {
+    border-radius: 100%;
+    min-width: 200px;
+    height: auto;
+    display: block;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    padding: 2px;
+}
+
+.message-form > * {
+    margin: 4px;
+}
+
+.message-form > button {
+    padding: 10px;
+}

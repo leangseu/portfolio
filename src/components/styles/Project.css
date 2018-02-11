@@ -1,0 +1,25 @@
+.project {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-card {
+    flex: 0 0 300px;
+    padding: 10px;
+    max-width: 200px;
+    margin: 30px;
+    box-shadow: 5px -5px 5px rgba(17, 10, 10, 0.1);
+    background-color: rgba(228, 228, 228, 0.08);
+    border: 1px solid rgba(17, 10, 10, 0.1);
+}
+
+.project-card:hover {
+    box-shadow: 7px -7px 5px rgba(17, 10, 10, 0.1);
+    background-color: rgba(17, 10, 10, 0.05);
+}
+
+img {
+    max-width: 100%;
+}

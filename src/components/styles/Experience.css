@@ -1,0 +1,36 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    box-shadow: 1em;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    max-width: 300px;
+    text-align: center;
+    align-self: center;
+}
+
+.social-link {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.social-link > a {
+    margin: 10px;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.languages > * {
+    margin: 15px;
+}

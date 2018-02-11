@@ -1,0 +1,39 @@
+.home {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile {
+    flex: 0 0 auto;
+    display: flex;
+    align-content: center;
+    line-height: 20px;
+    opacity:0;
+}
+
+.visible {
+    transition: all .5s;
+    opacity: 1;
+}
+
+.profile > img {
+    border-radius: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.skill {
+    flex: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill .languages {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+}
